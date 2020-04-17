@@ -1,4 +1,4 @@
-# frunt
+# Frunt
 A simple, flexible, framework agnostic, front-end build framework.
 
 ## Installation

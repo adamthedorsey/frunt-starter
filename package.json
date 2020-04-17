@@ -1,6 +1,6 @@
 {
   "name": "frunt",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A simple, flexible, framework agnostic, front-end build framework.",
   "author": "Adam Dorsey",
   "license": "MIT",
