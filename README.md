@@ -12,9 +12,9 @@ Uncomment your preferred framework in `style.scss` located at `/src/sass/style.s
 ### Example:
 
 ```sass
-@import "style.bulma.scss";
-// @import "style.bootstrap.scss";
-// @import "style.default.scss";
+@import "style.bulma";
+// @import "style.bootstrap";
+// @import "style.default";
 ```
 
 ## Copyright and license
