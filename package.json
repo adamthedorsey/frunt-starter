@@ -1,0 +1,49 @@
+{
+  "name": "frunt",
+  "version": "1.0.0",
+  "description": "A simple, flexible, framework agnostic, front-end build framework.",
+  "author": "Adam Dorsey",
+  "license": "MIT",
+  "keywords": [
+    "frunt",
+    "flexible",
+    "front-end",
+    "framework",
+    "webpack",
+    "sass",
+    "js",
+    "bootstrap",
+    "bulma"
+  ],
+  "homepage": "https://github.com/adamthedorsey/frunt#readme",
+  "bugs": {
+    "url": "https://github.com/adamthedorsey/frunt/issues"
+  },
+  "scripts": {
+    "dev": "npm run development",
+    "development": "NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot",
+    "prod": "npm run production",
+    "production": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamthedorsey/frunt.git"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.4.1",
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.0.1",
+    "bulma": "^0.8.2",
+    "cross-env": "^7.0.2",
+    "hamburgers": "^1.1.3",
+    "laravel-mix": "^5.0.4",
+    "normalize.css": "^8.0.1",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
