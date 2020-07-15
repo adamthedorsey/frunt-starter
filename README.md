@@ -1,5 +1,5 @@
 # Frunt
-A simple, flexible, framework agnostic, front-end build framework.
+A simple, flexible, framework-agnostic, front-end website build tool.
 
 ## Installation
 
